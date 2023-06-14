@@ -1,3 +1,23 @@
+[tool.poetry]
+name = "NA"
+version = "0.1.0"
+description = "NA"
+authors = ["NA"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.10"
+pymc = "4.3.0"
+arviz = "0.13.0"
+aeppl = "0.0.38"
+aesara = "2.8.7"
+theano-pymc = "1.1.2"
+ipykernel = "^6.23.2"
+watermark = "^2.4.2"
+daft = "^0.1.2"
+causalgraphicalmodels = "^0.0.4"
+seaborn = "^0.12.2"
+
 [tool.black]
 line-length = 100
 
